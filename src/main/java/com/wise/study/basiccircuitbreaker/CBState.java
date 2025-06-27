@@ -1,4 +1,4 @@
-package com.wise.study.circuitbreaker;
+package com.wise.study.basiccircuitbreaker;
 
 public enum CBState {
     OPEN,

@@ -1,11 +1,10 @@
-package com.wise.study.circuitbreaker;
+package com.wise.study.basiccircuitbreaker;
 
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.scheduling.annotation.Scheduled;
 
 import java.time.Instant;
-import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.*;
 
